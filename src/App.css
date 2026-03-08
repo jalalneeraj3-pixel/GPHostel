@@ -1,0 +1,54 @@
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.left_sidebar {
+    height: calc(100vh - 56px);
+    /* background-color: white; */
+    background-color: aqua;
+    overflow: auto;
+    background-image: url(https://img.freepik.com/free-vector/abstract-background-gradient-modern-design_677411-3112.jpg?semt=ais_wordcount_boost&w=740&q=80);
+}
+.right_sidebar {
+    height: calc(100vh - 56px); 
+    overflow: auto;
+    background-image: url("https://img.freepik.com/premium-photo/elementary-school-corridor_1230717-268965.jpg?semt=ais_user_personalization&w=740&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-none > li{
+    background-color: transparent !important;
+}
+
+.room{
+    color: white;
+    height: 300px !important;
+    width: auto;
+    overflow: auto;
+    background-image: url(https://t4.ftcdn.net/jpg/06/32/19/51/360_F_632195151_xTnjr4xGYG3oGyHiSWeCLLdWTKIVCpfY.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    text-align: center;
+}
+
+.table{
+    text-align: center;
+}
+
+.navbar{
+    background-image: url("https://t4.ftcdn.net/jpg/08/97/43/03/360_F_897430367_pGklBLvQPXGuPkkD3e0TI9BXairdIgXM.jpg");
+}
+
+.image > img{
+    border-radius: 100px;
+    
+
+}
+.profile{
+    border-left: 1px solid black;
+}
