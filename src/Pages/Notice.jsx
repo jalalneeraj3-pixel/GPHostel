@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 const Notice = () => {
-    const [count, setCount] = useState(60);
+    const [count, setCount] = useState(600);
     useEffect(() => {
         if (count > 0) {
             setTimeout(() => {

@@ -4,6 +4,7 @@ const FeeCollection = () => {
   return (
     <>
         <h1>FEE</h1>
+        
     </>
   )
 }

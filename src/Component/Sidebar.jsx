@@ -25,7 +25,7 @@ const Sidebar = () => {
                         <Link to={'/staff'}><i className="bi bi-person-plus"></i><b>Staff</b></Link>
                     </li>
                     <li className="list-group-item">
-                        <Link to={'/notice'}><i class="bi bi-journal-medical"></i><b>Notice Board</b></Link>
+                        <Link to={'/notice'}><i className="bi bi-journal-medical"></i><b>Notice Board</b></Link>
                     </li>
                 </ul>
             </div>

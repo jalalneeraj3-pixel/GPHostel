@@ -1,21 +1,6 @@
-a {
+/* a {
     text-decoration: none !important;
     color: white !important;
-}
-
-.left_sidebar {
-    height: calc(100vh - 56px);
-    /* background-color: white; */
-    background-color: aqua;
-    overflow: auto;
-    background-image: url(https://img.freepik.com/free-vector/abstract-background-gradient-modern-design_677411-3112.jpg?semt=ais_wordcount_boost&w=740&q=80);
-}
-.right_sidebar {
-    height: calc(100vh - 56px); 
-    overflow: auto;
-    background-image: url("https://img.freepik.com/premium-photo/elementary-school-corridor_1230717-268965.jpg?semt=ais_user_personalization&w=740&q=80");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .bg-none > li{
@@ -40,8 +25,11 @@ a {
     text-align: center;
 }
 
-.navbar{
+.intro_nav{
     background-image: url("https://t4.ftcdn.net/jpg/08/97/43/03/360_F_897430367_pGklBLvQPXGuPkkD3e0TI9BXairdIgXM.jpg");
+    background-color:lightgray;
+    height: 40px;
+    
 }
 
 .image > img{
@@ -51,4 +39,38 @@ a {
 }
 .profile{
     border-left: 1px solid black;
+}
+
+.detail_nav{
+    height: 160px;
+    background: cover;
+    width: 100%;
+    }
+    
+    .navbar{
+        background-color:linear-gradient(to right bottom, #212428, #24262a);
+        }
+        .imglogo{
+            margin-top: -7px;
+            }
+            .container{
+                height: 150px;
+                background-size: cover;
+                width: 100%;
+
+
+   }   */
+.left_sidebar_icon {
+    background-color: linear-gradient(to right bottom, #212428, #24262a);
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 6px;
+    margin: 5px;
+    box-shadow: 0px 0px 9px rgba(245, 245, 245, 0.3);
+    transition: all 0.3s linear;
+}
+
+.left_sidebar_icon:hover {
+    transform: translateY(-5px);
+    color: white !important;
 }
